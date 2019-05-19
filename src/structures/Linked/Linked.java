@@ -1,11 +1,11 @@
-package structures.list;
+package structures.Linked;
 
 /**
  *
  * @author Sávio Andres
  * @param <E>
  */
-public class List<E> {
+public class Linked<E> {
     
     private Node<E> first, last;
     private int size;

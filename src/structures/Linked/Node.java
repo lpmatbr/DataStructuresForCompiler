@@ -1,4 +1,5 @@
-package structures.list;
+package structures.Linked;
+
 
 /**
  *
@@ -8,7 +9,7 @@ package structures.list;
 public class Node <E> {
     private E element;
     private Node<E> previous, next;
-
+    
     public E getElement() {
         return element;
     }
